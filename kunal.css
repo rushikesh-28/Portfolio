@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(42, 161, 197);
+    margin: 0;
+  }
+
+  #backgroundImage {
+    border: none;
+    height: 100%;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+  }
+  
+  [show-background-image] #backgroundImage {
+    visibility: visible;
+  }
+  ul{
+    display: inline-flex;
+    margin-top:10px ;
+  
+  }
+  ul li{
+    padding: 10px;
+    list-style-type: none;
+  }
+ ul li button{
+    background-color: rgb(209, 37, 31);
+  }
+  nav {
+     float: right;
+     margin-top: 20px;
+  }
+  #logo{
+    float: left;
+    border-radius: 50%;
+  }
+  button{
+    height: 50px;
+    width: 80px;
+    font-size: 18px;
+  }
+  input{
+    font-size: 18px;
+  }
+  h1{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+  }
+  #kunal{
+    float: right;
+    margin-right: 10px;
+  }
+  #pic img{
+    border-radius: 50%;
+    float: right;
+  }
+  #kd h2{
+    font-size: 2.5rem;
+    color: rgb(170, 44, 6);
+    text-align: center;
+  }
+  #kd{
+     position: relative;
+    
+     top: 80px;
+     left: 150px;
+     width: fit-content;
+     height: fit-content;
+
+     
+  }
+  #watch {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+#time {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f3f3f3;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+#watch {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 100px;
+}
+
+#time {
+  font-size: 4em;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(135deg, #6e7dff, #00d2ff);
+  padding: 20px 40px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+#time:hover {
+  transform: scale(1.1);
+}
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+.contact-form {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f3c1c1;
+  border-radius: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #020b15;
+  color: rgb(224, 184, 184);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #433005;
+}
+
+

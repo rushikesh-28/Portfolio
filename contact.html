@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./kunal.css">
+</head>
+<body>
+    
+    <iframe id="backgroundImage" src=""></iframe>
+    <ntp-app></ntp-app>
+    <script type="module" src="new_tab_page.js"></script>
+    <link rel="stylesheet" href="chrome://resources/css/text_defaults_md.css">
+    <link rel="stylesheet" href="chrome://theme/colors.css?sets=ui,chrome">
+    <link rel="stylesheet" href="shared_vars.css">
+    
+      
+      <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+        <li class="nav-item" role="presentation">
+          <a href="index.html"><button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button></a>
+        </li>
+        <li class="nav-item" role="presentation">
+         <a href="profile.html"> <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button></a>
+        </li>
+        <li class="nav-item" role="presentation">
+         <a href="contact.html"> <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+         </a>
+        </li>
+        <li><button id="themeToggle"> Dark Mode</button></li>
+      </ul>
+      <img src="./kd.jpeg" alt="" height="80px " width="80px" id="logo">
+      <a href="https://www.instagram.com/kunal_dhade/?igsh=eHJxdWE1eHlmZGh1#" id="pic"><img src="./insta.jpeg" alt="" height="80px" width="80px" ></a>
+      <h1>Welcome </h1>
+      <div class="contact-form">
+      <h2 style="color: rgb(51, 37, 65);">Contact Me</h2>
+      <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button type="submit" style="width: 100px;">Send Message</button>
+      </form>
+      <p id="responseMessage"></p>
+  </div>
+    
+      <div id="kd">
+        <marquee behavior="" direction="" scrollamount="20" ><h2 >If You Want To Contact Me On Insta Click on Above Insta Logo, <br>Else [kunal_dhade] Is My Insta User Name </h2>
+      </marquee>
+     </div>
+    
+     <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(42, 161, 197);
+    margin: 0;
+  }
+
+  #backgroundImage {
+    border: none;
+    height: 100%;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+  }
+  
+  [show-background-image] #backgroundImage {
+    visibility: visible;
+  }
+  ul{
+    display: inline-flex;
+    margin-top:10px ;
+  
+  }
+  ul li{
+    padding: 10px;
+    list-style-type: none;
+  }
+ ul li button{
+    background-color: rgb(209, 37, 31);
+  }
+  nav {
+     float: right;
+     margin-top: 20px;
+  }
+  #logo{
+    float: left;
+    border-radius: 50%;
+  }
+  button{
+    height: 50px;
+    width: 80px;
+    font-size: 18px;
+  }
+  input{
+    font-size: 18px;
+  }
+  h1{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+  }
+  #kunal{
+    float: right;
+    margin-right: 10px;
+  }
+.summary{
+    background-color: blueviolet;
+    font-size: 2rem;
+}
+#insta{
+    float: left;
+    text-align: center;
+}
+/* styles.css */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Adjust other elements as necessary for dark mode */
+
